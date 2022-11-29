@@ -2,14 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-.title{
+body{
+    background-color: lightgrey;
+}
+
+.head, .sectionadd, .checklist{
+    background-color: white;
+}
+
+.title, h2{
     display: inline-block;
-    vertical-align: middle;
 }
 
-.logo{
+.logo, .title{
     vertical-align: middle;
 }
 
@@ -18,13 +26,14 @@
 }
 
 .container{
-    width: 1200px;
+    width: 1300px;
     margin: 50px auto;
 }
 
 .sectionadd{
-    padding: 10px;
-    margin-bottom: 5px;
+    padding: 10px 100px;
+    margin-bottom: 1px;
+    border-radius: 10px 10px 0 0;
 }
 
 .button{
@@ -36,6 +45,61 @@
 }
 
 .checklist{
-    padding: 30px 10px;
+    padding: 30px 100px;
+    border-radius: 0 0 10px 10px;
 }
 
+details{
+    padding: 10px 0;
+}
+
+li{
+    padding: 10px 0;
+    list-style: none;
+}
+
+.v, .x{
+    border: 1px solid;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.v{
+    color: green;
+}
+
+.x{
+    color: red;
+}
+
+.editorial, .q1goals, .mobile, .recruting, .website, .sales{
+    border-radius: 10px;
+    font-size: 12px;
+    padding: 5px;
+    color: white;
+}
+
+.editorial{
+    background-color: dodgerblue;
+}
+
+.q1goals{
+    background-color: blueviolet;
+}
+
+.recruting{
+    background-color: lightgreen;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: plum;
+}
+
+.sales{
+    background-color: yellowgreen;
+}
