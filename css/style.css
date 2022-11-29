@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+.head{
+    padding: 10px;
+}
+
+.container{
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.sectionadd{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.button{
+    color: gray;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.checklist{
+    padding: 30px 10px;
+}
+
